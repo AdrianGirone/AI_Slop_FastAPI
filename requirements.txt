@@ -1,0 +1,40 @@
+# FastAPI Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+jinja2==3.1.2
+
+# LLM & Agents
+langchain==0.1.0
+langchain-community==0.0.13
+langchain-ollama==0.0.1
+crewai==0.1.0
+
+# Vector Stores & RAG
+chromadb==0.4.22
+faiss-cpu==1.7.4
+
+# Document Processing
+pypdf2==3.0.1
+python-docx==1.1.0
+docx2txt==0.8
+
+# Web Scraping (Ethical)
+playwright==1.41.0
+requests==2.31.0
+
+# API Integration
+python-dotenv==1.0.0
+
+# Data Processing
+pandas==2.1.4
+
+# Optional UI
+streamlit==1.30.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+httpx==0.26.0

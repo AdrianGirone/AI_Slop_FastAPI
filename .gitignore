@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.venv
+*.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Databases
+*.sqlite3
+*.db
+db.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Data directories
+data/
+chroma_db/
+*.pdf
+*.docx
+*.doc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FastAPI/Uvicorn
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Django remnants (can be removed after migration)
+AI_Slop/migrations/
+staticfiles/
+media/
